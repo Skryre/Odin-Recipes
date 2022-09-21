@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(rgba(217, 201, 149, 0.2), rgba(217, 201, 149, 0.2)), url(img-file/kitchen-2165756_960_720.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.body{
+    margin: auto;
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    min-height: 500px;
+    border-radius: 5%;
+}
+
+
+.title{
+    padding: 50px; 
+    height: 10%;
+}
+
+.recipe-list{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 0 10px;
+    justify-content: center;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    border: solid black 3px;
+    margin-top: 20px;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
