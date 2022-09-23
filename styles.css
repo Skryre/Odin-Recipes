@@ -18,15 +18,29 @@ body{
     margin-top: 60px;
 }
 
+.body1{
+    margin: auto;
+    background: url(img-file/image\ copie\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 80%;
+    height: 100%;
+    min-height: 500px;
+    border-radius: 2%;
+    margin-top: 60px;
+}
+
 
 .title{
-    padding: 80px 10px; 
+    padding: 30px 10px; 
     height: 10%;
 }
 
 .recipe-list{
     display: flex;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 h1{
